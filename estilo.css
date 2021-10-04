@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {text-decoration: none;}
+.inicio, .transaccion {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.logo {
+    width: 350px;
+}
+.textoInicio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.boton {
+    margin: 0 auto;
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 150px;
+    height: 30px;
+}
+.transaccionInfo {
+    display: flex;
+    align-items: center;
+}
+.transaccionLogo {
+    width: 200px;
+}
+.transaccionText {
+    text-align: left;
+}
+.transaccionBotones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.transaccionBotones a {
+    margin-bottom: 30px;
+}
+.transaccionInfo { 
+    margin-bottom: 30px;
+}
+.botonIzq {
+    width: 200px;
+    padding-left: 20px;
+    justify-content: flex-start;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 15px;
+}
+.botonDer {
+    width: 200px;
+    padding-right: 20px;
+    justify-content: flex-end;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0;
+}
+.botonGris {
+    background-color: gray;
+}
