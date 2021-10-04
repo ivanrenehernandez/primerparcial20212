@@ -69,3 +69,28 @@ a {text-decoration: none;}
 .botonGris {
     background-color: gray;
 }
+.input {
+    border-radius: 8px;
+    padding: 15px;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.claveBotones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.clave {
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 50px;
+}
+.cambioTExt {
+    padding: 2opx 0;
+}
